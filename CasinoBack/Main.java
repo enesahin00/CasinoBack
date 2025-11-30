@@ -5,6 +5,7 @@ public class Main {
 		System.out.println("fghdhdghfdgfh");
 		int a =5; 
 		System.out.println("cevap;"+a/5);
+		System.out.println("değişiklik yapıldı");
 
 	}
 
