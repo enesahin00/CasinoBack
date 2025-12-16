@@ -1,5 +1,5 @@
 
-public class Main extends Thread {
+public class Test extends Thread {
 public void run() {
 	int a=0;
 	while(a<5) {
@@ -8,7 +8,7 @@ public void run() {
 	}
 }
 	public static void main(String[] args) {
-		Main t= new Main();
+		Test t= new Test();
 		t.start();
 		for(int a=0;a<1000;a++) {System.out.println(a);}
 	
